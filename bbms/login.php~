@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login  </title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<!--Header start -->
+<div class="header">
+<div class="logo">
+<h1>Blood Bank Management System</h1></div>
+
+
+ </div>
+<!--Header end -->
+<form method="post" action="login.php"> 
+<center>
+<table class="table">
+<tr>
+<td>Enter Name</td>
+<td><input type="text" name="name" value="" placeholder="Enter Name"/></td>
+</tr>
+
+<tr>
+<td>Enter Password</td>
+<td><input type="password" name="password" value="" placeholder="Enter Password"/></td>
+</tr>
+<br>
+<tr>
+
+<td colspan="2"><input type="submit" name="login" value="Login" /></td>
+</tr>
+
+
+
+</table>
+</center>
+</form>
+
+
+<!-- Footer  start -->
+<div class="footer"> 
+
+<br> <br>
+<h2 align="center">Copyright: myproject@gmail.com 2018-11</h2>
+<br> <br>
+ </div>
+<!-- Footer end -->
+
+
+</body>
+</html>
